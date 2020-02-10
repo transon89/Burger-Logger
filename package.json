@@ -1,0 +1,26 @@
+{
+  "name": "burger-logger",
+  "version": "1.0.0",
+  "description": "an application that delivers different functionalities ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/transon89/Burger-Logger.git"
+  },
+  "author": "Son Tran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/transon89/Burger-Logger/issues"
+  },
+  "homepage": "https://github.com/transon89/Burger-Logger#readme",
+  "dependencies": {
+    "controllers": "0.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql": "^2.18.1"
+  }
+}
